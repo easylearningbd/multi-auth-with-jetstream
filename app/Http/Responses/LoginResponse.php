@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Fortify\Http\Responses;
+namespace App\Http\Responses;
 
 use Laravel\Fortify\Contracts\LoginResponse as LoginResponseContract;
 use Laravel\Fortify\Fortify;
