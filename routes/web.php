@@ -27,7 +27,7 @@ Route::middleware(['auth:sanctum,admin', config('jetstream.auth_session'), 'veri
 ])->group(function () {
     Route::get('/admin/dashboard', function () {
         return view('dashboard');
-    })->name('dashboard');
+    })->name('dashboard')->middleware('auth:admin');
 });
  
 
